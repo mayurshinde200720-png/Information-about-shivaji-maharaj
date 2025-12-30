@@ -1,0 +1,149 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+header {
+    background-color: #ff9933;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header:hover {
+    background-color: #ff8000;
+}
+nav {
+    background-color: #333;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #ff6600;
+}
+
+nav a:active {
+    background-color: #cc5200;
+}
+
+nav a:first-child {
+    border-left: 2px solid white;
+}
+
+nav a:last-child {
+    border-right: 2px solid white;
+}
+.main-section {
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px gray;
+    text-align: center;
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.main-section:hover {
+    box-shadow: 0px 0px 15px black;
+   transform: scale(1.02);
+}
+
+.main-section img {
+    width: 60%;
+    border-radius: 10px;
+    border: 3px solid #333;
+}
+
+.main-section img:hover {
+    opacity: 0.9;
+}
+footer {
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer:hover {
+    background-color: black;
+}
+
+
+
+
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+background-color: #f7f7fc;
+}
+header {
+background: #ff9933;
+padding: 20px;
+text-align: center;
+color: white;
+font-size: 28px;
+font-weight: bold;
+}
+.container {
+width: 85%;
+margin: 30px auto;
+background: white;
+padding: 25px;
+border-radius: 12px;
+box-shadow: 0px 0px 10px gray;
+}
+h2 {
+color: #cc5500;
+text-align: center;
+margin-bottom: 20px;
+}
+p {
+line-height: 1.7;
+font-size: 18px;
+color: #333;
+}
+ul {
+font-size: 18px;
+color: #333;
+line-height: 1.6;
+}
+img {
+width: 60%;
+display: block;
+margin: 20px auto;
+border-radius: 10px;
+border: 3px solid #444;
+}
+.back-btn {
+display: inline-block;
+margin-top: 25px;
+padding: 12px 20px;
+background-color: #ff6600;
+color: white;
+text-decoration: none;
+font-size: 18px;
+border-radius: 8px;
+}
+.back-btn:hover {
+background-color: #cc5500;
+}
+footer {
+background: #222;
+color: white;
+padding: 10px;
+text-align: center;
+margin-top: 30px;
+}
